@@ -16,6 +16,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 1em 0 1em 0;
 }
 
 #button-container {
@@ -26,7 +27,7 @@ body {
 }
 
 .button {
-  font-size: 1,5em;
+  font-size: 2em;
 }
 
 .button-navigate {
@@ -41,6 +42,37 @@ body {
   width: 450px;
 }
 
-.music-container {
-  
+#play-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em 0 4em 0;
+}
+
+#music-name {
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+
+#band-name {
+  font-size: 1em;
+}
+
+.ligth-color {
+  color: rgb(139,153,156);
+}
+
+#progress-bar {
+  background-color: rgb(139,153,156);
+  height: 3px;
+  width: 100%;
+  margin: 0 0 1em 0;
+  border-radius: 15px;
+}
+
+#current-progress {
+  background-color: white;
+  height: inherit;
+  width: 50%;
+  border-radius: inherit;
 }
