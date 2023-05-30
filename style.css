@@ -8,6 +8,7 @@ body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #below-cover {
@@ -29,9 +30,17 @@ body {
 }
 
 .button-navigate {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .button-biggest {
-  font-size: 3em;
+  font-size: 4em;
+}
+
+#cover {
+  width: 450px;
+}
+
+.music-container {
+  
 }
