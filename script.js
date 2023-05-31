@@ -15,7 +15,7 @@ const Zóiodelula = {
 const PescadordeIlusões = {
   songName: 'Pescador de ilusões',
   artist: 'O Rappa',
-  file: 'pescador-de-ilusoes',
+  file: 'pescador-de-ilusoes-acustico',
 };
 let isPlaying = false;
 const playlist = [Zóiodelula, PescadordeIlusões];
