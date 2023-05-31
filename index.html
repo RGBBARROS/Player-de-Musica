@@ -11,27 +11,29 @@
 <body>
 
   <div class ="music-container">
-  <h3 id="play-title">Player Roger Barros</h3>
-  <img id ="cover" src = "/Image/a0eb2f3a-a563-4f54-af84-ca24fc90fe6b.jpg"></img>
-  <div id ="below-cover">
-    <div id ="song-info">
-        <div id="music-name">Nome da música</div>
-        <div id="band-name" class="ligth-color">Nome da banda</div>
-    </div>
-    <div id ="like" class ="button ligth-color"><i class ="bi bi-heart"></i></div>
+       <h3 id="play-title">Player Roger Barros</h3>
+       <img id ="cover" src = "/Image/a0eb2f3a-a563-4f54-af84-ca24fc90fe6b.jpg"></img>
+       <audio id="audio" src="/songs/zoio-de-lula.mp3"></audio>
+       <div id ="below-cover">
+          <div id ="song-info">
+              <div id="music-name">Nome da música</div>
+              <div id="band-name" class="ligth-color">Nome da banda</div>
+  </div>
+    <button id ="like" class ="button ligth-color"><i class ="bi bi-heart"></i></button>
   </div>
 
-<div id="progress-bar">
-  <div id="current-progress"></div>
-</div>
+  <div id="progress-bar">
+    <div id="current-progress"></div>
+  </div>
 
-<div id ="button-container">
-  <div id ="shuffle" class="button"><i class ="bi bi-shuffle"></i></div>
-  <div id ="previous" class="button button-navigate"><i class ="bi bi-skip-start-fill"></i></div>
-  <div id ="play" class="button button-biggest"><i class ="bi bi-play-circle-fill"></i></div>
-  <div id ="next" class="button button-navigate"><i class ="bi bi-skip-end-fill"></i></div>
-  <div id ="repeat" class="button"><i class ="bi bi-repeat"></i></div>
-</div>
-</div>
-</body>
+    <div id ="button-container">
+      <button id ="shuffle" class="button"><i class ="bi bi-shuffle"></i></button>
+      <button id ="previous" class="button button-navigate"><i class ="bi bi-skip-start-fill"></i></button>
+      <button id ="play" class="button button-biggest"><i class ="bi bi-play-circle-fill"></i></button>
+      <button id ="next" class="button button-navigate"><i class ="bi bi-skip-end-fill"></i></button>
+      <button id ="repeat" class="button"><i class ="bi bi-repeat"></i></button>
+   </div>
+  </div>
+  <script src="/script.js"></script>
+ </body>
 </html>
